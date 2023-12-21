@@ -1,0 +1,26 @@
+{
+  "name": "@dependable/vite",
+  "type": "module",
+  "description": "@dependable/state hot reloading setup for Vite",
+  "version": "0.0.0",
+  "author": "Sune Simonsen <sune@we-knowhow.dk>",
+  "license": "MIT",
+  "module": "./src/setup.js",
+  "keywords": ["dependable", "observable", "state", "vite", "dev"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunesimonsen/dependable-vite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sunesimonsen/dependable-vite/issues"
+  },
+  "exports": {
+    ".": "./src/setup.js"
+  },
+  "dependencies": {
+    "@dependable/session": "^0.14.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
